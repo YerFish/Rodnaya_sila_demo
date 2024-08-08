@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+
+	<meta name="description"
+		content="Откройте широкий выбор продуктов для здоровья и гармонии в каталоге Родной Силы. Добавляйте товары в корзину или покупайте в один клик по дистрибьюторским ценам. Подтверждение качества – реальные отзывы клиентов и партнеров. Начните свой путь к лучшему здоровью уже сегодня! ">
+	<meta name="keywords" content="каталог">
+
+	<meta property="og:title" content="Родная сила — жизнь, дарованная природой" />
+	<meta property="og:description"
+		content="Откройте широкий выбор продуктов для здоровья и гармонии в каталоге Родной Силы. Добавляйте товары в корзину или покупайте в один клик по дистрибьюторским ценам. Подтверждение качества – реальные отзывы клиентов и партнеров. Начните свой путь к лучшему здоровью уже сегодня! " />
+	<meta property="og:image" content="img/section-top/bg2.jpg" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#5c8429">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>Родная сила — жизнь, дарованная природой</title>
+	<script src="js/slick.min.js" defer></script>
+	<script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+	<!-- header-page -->
+	<header class="header-page">
+		<div class="container header-page__container">
+			<div class="header-page__start">
+				<div class="header-page__hamburger" data-popup="popup-menu">
+					<button class="btn-menu" type="button">
+						<span class="btn-menu__box">
+							<span class="btn-menu__inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="logo" onclick="document.location='index.html'">
+					<img class="logo__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/common/logo.svg" alt="Логотип" width="70" height="40">
+				</div>
+			</div>
+			<div class="header-page__end">
+				<nav class="header-page__nav">
+					<ul class="header-page__ul">
+						<li class="header-page__li">
+							<a class="header-page__link" href="index.html">
+								<span class="header-page__text">Главная</span>
+							</a>
+						</li>
+						<li class="header-page__li">
+							<a class="header-page__link" data-scroll-to="section-top">
+								<span class="header-page__text" style="color: var(--dark-green); --d: 100%;">Каталог</span>
+							</a>
+						</li>
+						<li class="header-page__li">
+							<a class="header-page__link" href="contacts.html">
+								<span class="header-page__text">Контакты</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="header-page__nav">
+					<ul class="header-page__ul">
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<button class="btn-icon" type="button" data-popup="popup-enter">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/account.svg" alt="Личный кабинет">
+								</button>
+							</div>
+						</li>
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<a href="#" class="btn-icon">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/fav.svg" alt="Избранное">
+								</a>
+							</div>
+						</li>
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<a href="cart.html" class="btn-icon">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/cart.svg" alt="Корзина">
+								</a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+				<div class="phone">
+					<a href="tel:+78432039343" class="phone__item header-page__phone">Связаться</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- /.header-page -->
+
+
+	<!-- section-top -->
+	<section class="section-top lazy catalog" data-src="img/section-top/bg2.webp" data-src-replace-webp="img/section-top/bg2.jpg">
+		<div class="container section-top__container">
+			<h2 class="section-top__subtitle">Каталог</h2>
+		</div>
+	</section>
+	<!-- /.section-top -->
+
+	<!-- carousel start -->
+	<section class="section section-carousel catalog" id="carousel">
+		<div class="container">
+
+			<header class="section-carousel__header">
+				<h2 class="page-title section-carousel__title">ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</h2>
+			</header>
+
+			<div class="products-slider">
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/1.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/1.png" alt="Memory Grape & Phytogumin “Виноградная косточка”">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">4 680</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Memory Grape & Phytogumin “Виноградная косточка”</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/2.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/2.png" alt="Лосьон “Реликтовый родник”">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">4 095</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Лосьон “Реликтовый родник”</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/3.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/3.png" alt="Крем “Реликтовый родник”">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">4 160</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Крем “Реликтовый родник”</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/4.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/4.png" alt="Гель “Реликтовый родник”">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">3 413</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Гель “Реликтовый родник”</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/5.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/5.png" alt="Фитогумин-К">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">4 680</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Фитогумин-К</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/6.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/6.png" alt="Экстракт масла “Монамак”">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">4 290</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Экстракт масла “Монамак”</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/7.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/7.png" alt="Экстракт масла “Лебедушка”">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">4 290</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Экстракт масла “Лебедушка”</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/8.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/8.png" alt="Травяной напиток “Магия 12 трав”">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">500</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Травяной напиток “Магия 12 трав”</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/9.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/9.png" alt="Травяной экстракт “АстраЭлеОс”">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">2 990</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Травяной экстракт “АстраЭлеОс”</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/10.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/10.png" alt="Травяной напиток “Настроение”">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">650</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Травяной напиток “Настроение”</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/11.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/11.png" alt="Экстракт масла “Бетула”">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">4 290</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Экстракт масла “Бетула”</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+				<div class="products-slider__item">
+					<a href="product-card.html" class="product__link">
+						<div class="product carousel__product">
+							<button class="btn-icon product__best" type="button">
+								<img class="btn-icon__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/common/fav.svg" alt="Избранное">
+							</button>
+							<picture>
+								<source type="image/webp"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-srcset="img/section-carousel/12.webp">
+								<img class="product__img lazy"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+									data-src="img/section-carousel/12.png" alt="Мыло спа">
+							</picture>
+							<div class="product__content">
+								<div class="product__price">
+									<span class="product__price-value">2 470</span>
+									<span class="product__currency">&#8381;</span>
+								</div>
+								<h3 class="product__title">Мыло спа</h3>
+							</div>
+							<footer class="product__footer">
+								<div class="product__bottom">
+
+									<a href="order.html" class="product__buy-link">Купить<span class="product__buy-text">в 1
+											клик</span></a>
+									<a href="cart.html" class="to-cart">
+										<img class="to-cart__icon lazy"
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/common/cart.svg" alt="Корзина">
+									</a>
+								</div>
+							</footer>
+						</div>
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!-- carousel end -->
+
+	<!-- section-feedback start -->
+	<section class="section section-feedback">
+		<div id="feedback" class="container feedback">
+			<header class="section-feedback__header">
+				<h2 class="page-title section-feedback__title">Что о нас говорят?</h2>
+			</header>
+
+			<div class="feedback-slider">
+
+				<div class="feedback-slider__item">
+					<div class="product feedback__product">
+						<svg class="feedback__img" width="25" height="18" viewBox="0 0 25 18" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M19.4165 11.291C18.3782 11.291 17.3631 10.9831 16.4998 10.4062C15.6364 9.82936 14.9635 9.00942 14.5661 8.05011C14.1688 7.09079 14.0648 6.03519 14.2674 5.01679C14.47 3.99839 14.97 3.06293 15.7042 2.32871C16.4384 1.59448 17.3739 1.09447 18.3923 0.891895C19.4107 0.689323 20.4663 0.79329 21.4256 1.19065C22.3849 1.58801 23.2048 2.26092 23.7817 3.12427C24.3586 3.98763 24.6665 5.00267 24.6665 6.04102L24.6905 6.79102C24.6905 8.1699 24.4189 9.53528 23.8912 10.8092C23.3636 12.0831 22.5901 13.2406 21.6151 14.2156C20.6401 15.1907 19.4826 15.9641 18.2087 16.4918C16.9348 17.0194 15.5694 17.291 14.1905 17.291V14.291C15.1759 14.2937 16.152 14.101 17.0624 13.724C17.9728 13.3471 18.7994 12.7934 19.4945 12.095C19.7647 11.8254 20.0139 11.5355 20.24 11.228C19.9676 11.2708 19.6923 11.2924 19.4165 11.2925V11.291ZM5.91651 11.291C4.87815 11.291 3.86312 10.9831 2.99976 10.4062C2.1364 9.82936 1.4635 9.00942 1.06614 8.05011C0.668779 7.09079 0.564811 6.03519 0.767384 5.01679C0.969956 3.99839 1.46997 3.06293 2.2042 2.32871C2.93842 1.59448 3.87388 1.09447 4.89228 0.891895C5.91068 0.689323 6.96628 0.79329 7.92559 1.19065C8.88491 1.58801 9.70484 2.26092 10.2817 3.12427C10.8586 3.98763 11.1665 5.00267 11.1665 6.04102L11.1905 6.79102C11.1905 9.57579 10.0843 12.2465 8.11513 14.2156C6.146 16.1848 3.47528 17.291 0.690506 17.291V14.291C1.67585 14.2937 2.65195 14.101 3.56236 13.724C4.47276 13.3471 5.29941 12.7934 5.99451 12.095C6.26466 11.8254 6.51388 11.5355 6.74001 11.228C6.46759 11.2708 6.19226 11.2924 5.91651 11.2925V11.291Z"
+								fill="#2C3C18" />
+						</svg>
+						<div class="feedback__content">
+							<p class="feedback__text">«крем хороший, моей коже он прекрасно подошел ,высыпаний не вызывал, кожа после
+								него сияет .</p>
+							<h3 class="feedback__title">Анастасия Алексеева</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="feedback-slider__item">
+					<div class="product feedback__product">
+						<svg class="feedback__img" width="25" height="18" viewBox="0 0 25 18" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M19.4165 11.291C18.3782 11.291 17.3631 10.9831 16.4998 10.4062C15.6364 9.82936 14.9635 9.00942 14.5661 8.05011C14.1688 7.09079 14.0648 6.03519 14.2674 5.01679C14.47 3.99839 14.97 3.06293 15.7042 2.32871C16.4384 1.59448 17.3739 1.09447 18.3923 0.891895C19.4107 0.689323 20.4663 0.79329 21.4256 1.19065C22.3849 1.58801 23.2048 2.26092 23.7817 3.12427C24.3586 3.98763 24.6665 5.00267 24.6665 6.04102L24.6905 6.79102C24.6905 8.1699 24.4189 9.53528 23.8912 10.8092C23.3636 12.0831 22.5901 13.2406 21.6151 14.2156C20.6401 15.1907 19.4826 15.9641 18.2087 16.4918C16.9348 17.0194 15.5694 17.291 14.1905 17.291V14.291C15.1759 14.2937 16.152 14.101 17.0624 13.724C17.9728 13.3471 18.7994 12.7934 19.4945 12.095C19.7647 11.8254 20.0139 11.5355 20.24 11.228C19.9676 11.2708 19.6923 11.2924 19.4165 11.2925V11.291ZM5.91651 11.291C4.87815 11.291 3.86312 10.9831 2.99976 10.4062C2.1364 9.82936 1.4635 9.00942 1.06614 8.05011C0.668779 7.09079 0.564811 6.03519 0.767384 5.01679C0.969956 3.99839 1.46997 3.06293 2.2042 2.32871C2.93842 1.59448 3.87388 1.09447 4.89228 0.891895C5.91068 0.689323 6.96628 0.79329 7.92559 1.19065C8.88491 1.58801 9.70484 2.26092 10.2817 3.12427C10.8586 3.98763 11.1665 5.00267 11.1665 6.04102L11.1905 6.79102C11.1905 9.57579 10.0843 12.2465 8.11513 14.2156C6.146 16.1848 3.47528 17.291 0.690506 17.291V14.291C1.67585 14.2937 2.65195 14.101 3.56236 13.724C4.47276 13.3471 5.29941 12.7934 5.99451 12.095C6.26466 11.8254 6.51388 11.5355 6.74001 11.228C6.46759 11.2708 6.19226 11.2924 5.91651 11.2925V11.291Z"
+								fill="#2C3C18" />
+						</svg>
+						<div class="feedback__content">
+							<p class="feedback__text">«крем хороший, моей коже он прекрасно подошел ,высыпаний не вызывал, кожа после
+								него сияет .</p>
+							<h3 class="feedback__title">Анастасия Алексеева</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="feedback-slider__item">
+					<div class="product feedback__product">
+						<svg class="feedback__img" width="25" height="18" viewBox="0 0 25 18" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M19.4165 11.291C18.3782 11.291 17.3631 10.9831 16.4998 10.4062C15.6364 9.82936 14.9635 9.00942 14.5661 8.05011C14.1688 7.09079 14.0648 6.03519 14.2674 5.01679C14.47 3.99839 14.97 3.06293 15.7042 2.32871C16.4384 1.59448 17.3739 1.09447 18.3923 0.891895C19.4107 0.689323 20.4663 0.79329 21.4256 1.19065C22.3849 1.58801 23.2048 2.26092 23.7817 3.12427C24.3586 3.98763 24.6665 5.00267 24.6665 6.04102L24.6905 6.79102C24.6905 8.1699 24.4189 9.53528 23.8912 10.8092C23.3636 12.0831 22.5901 13.2406 21.6151 14.2156C20.6401 15.1907 19.4826 15.9641 18.2087 16.4918C16.9348 17.0194 15.5694 17.291 14.1905 17.291V14.291C15.1759 14.2937 16.152 14.101 17.0624 13.724C17.9728 13.3471 18.7994 12.7934 19.4945 12.095C19.7647 11.8254 20.0139 11.5355 20.24 11.228C19.9676 11.2708 19.6923 11.2924 19.4165 11.2925V11.291ZM5.91651 11.291C4.87815 11.291 3.86312 10.9831 2.99976 10.4062C2.1364 9.82936 1.4635 9.00942 1.06614 8.05011C0.668779 7.09079 0.564811 6.03519 0.767384 5.01679C0.969956 3.99839 1.46997 3.06293 2.2042 2.32871C2.93842 1.59448 3.87388 1.09447 4.89228 0.891895C5.91068 0.689323 6.96628 0.79329 7.92559 1.19065C8.88491 1.58801 9.70484 2.26092 10.2817 3.12427C10.8586 3.98763 11.1665 5.00267 11.1665 6.04102L11.1905 6.79102C11.1905 9.57579 10.0843 12.2465 8.11513 14.2156C6.146 16.1848 3.47528 17.291 0.690506 17.291V14.291C1.67585 14.2937 2.65195 14.101 3.56236 13.724C4.47276 13.3471 5.29941 12.7934 5.99451 12.095C6.26466 11.8254 6.51388 11.5355 6.74001 11.228C6.46759 11.2708 6.19226 11.2924 5.91651 11.2925V11.291Z"
+								fill="#2C3C18" />
+						</svg>
+						<div class="feedback__content">
+							<p class="feedback__text">«крем хороший, моей коже он прекрасно подошел ,высыпаний не вызывал, кожа после
+								него сияет .</p>
+							<h3 class="feedback__title">Анастасия Алексеева</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="feedback-slider__item">
+					<div class="product feedback__product">
+						<svg class="feedback__img" width="25" height="18" viewBox="0 0 25 18" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M19.4165 11.291C18.3782 11.291 17.3631 10.9831 16.4998 10.4062C15.6364 9.82936 14.9635 9.00942 14.5661 8.05011C14.1688 7.09079 14.0648 6.03519 14.2674 5.01679C14.47 3.99839 14.97 3.06293 15.7042 2.32871C16.4384 1.59448 17.3739 1.09447 18.3923 0.891895C19.4107 0.689323 20.4663 0.79329 21.4256 1.19065C22.3849 1.58801 23.2048 2.26092 23.7817 3.12427C24.3586 3.98763 24.6665 5.00267 24.6665 6.04102L24.6905 6.79102C24.6905 8.1699 24.4189 9.53528 23.8912 10.8092C23.3636 12.0831 22.5901 13.2406 21.6151 14.2156C20.6401 15.1907 19.4826 15.9641 18.2087 16.4918C16.9348 17.0194 15.5694 17.291 14.1905 17.291V14.291C15.1759 14.2937 16.152 14.101 17.0624 13.724C17.9728 13.3471 18.7994 12.7934 19.4945 12.095C19.7647 11.8254 20.0139 11.5355 20.24 11.228C19.9676 11.2708 19.6923 11.2924 19.4165 11.2925V11.291ZM5.91651 11.291C4.87815 11.291 3.86312 10.9831 2.99976 10.4062C2.1364 9.82936 1.4635 9.00942 1.06614 8.05011C0.668779 7.09079 0.564811 6.03519 0.767384 5.01679C0.969956 3.99839 1.46997 3.06293 2.2042 2.32871C2.93842 1.59448 3.87388 1.09447 4.89228 0.891895C5.91068 0.689323 6.96628 0.79329 7.92559 1.19065C8.88491 1.58801 9.70484 2.26092 10.2817 3.12427C10.8586 3.98763 11.1665 5.00267 11.1665 6.04102L11.1905 6.79102C11.1905 9.57579 10.0843 12.2465 8.11513 14.2156C6.146 16.1848 3.47528 17.291 0.690506 17.291V14.291C1.67585 14.2937 2.65195 14.101 3.56236 13.724C4.47276 13.3471 5.29941 12.7934 5.99451 12.095C6.26466 11.8254 6.51388 11.5355 6.74001 11.228C6.46759 11.2708 6.19226 11.2924 5.91651 11.2925V11.291Z"
+								fill="#2C3C18" />
+						</svg>
+						<div class="feedback__content">
+							<p class="feedback__text">«крем хороший, моей коже он прекрасно подошел ,высыпаний не вызывал, кожа после
+								него сияет .</p>
+							<h3 class="feedback__title">Анастасия Алексеева</h3>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+	<!-- feedback end -->
+
+
+
+	<!-- footer-page -->
+	<footer class="footer-page">
+		<div class="container footer-page__container">
+			<div class="footer-page__info">
+				<ul class="footer-page__list">
+					<li class="footer-page__li">Организация</li>
+					<li class="footer-page__li">
+						<a href="index.html" class="footer-page__link">О нас</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="catalog.html" class="footer-page__link">Каталог</a>
+					</li>
+				</ul>
+				<ul class="footer-page__list">
+					<li class="footer-page__li">Как купить</li>
+					<li class="footer-page__li">
+						<a href="index.html#section-bonus" class="footer-page__link">Доставка</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="index.html#section-bonus" class="footer-page__link">Оплата</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="contacts.html" class="footer-page__link">Контакты</a>
+					</li>
+				</ul>
+				<ul class="footer-page__list">
+					<li class="footer-page__li">Мы на связи</li>
+					<li class="footer-page__li">
+						<a href="tel:+78432039343" class="footer-page__link">8 (843) 203-93-43</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="mailto:info@td-germes.ru" class="footer-page__link"
+							style="text-decoration-line: underline;">info@td-germes.ru</a>
+					</li>
+				</ul>
+				<ul class="footer-page__list">
+					<li class="footer-page__li">Наш адрес</li>
+					<li class="footer-page__li">
+						<a href="contacts.html" class="footer-page__link">Казань</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="contacts.html" class="footer-page__link" style="text-decoration-line: underline;">ул.Сары Садыковой
+							30, 2 этаж</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="contacts.html" class="footer-page__link">Пн - Пт c 8:30 до 17:30
+							<br>Суббота с 9:00 до 14:00</a>
+					</li>
+				</ul>
+			</div>
+			<p class="footer-page__text">© 2012 — 2020, ООО «ТК «Гермес»<br>
+				Сайт www.td-germes.ru носит исключительно информационный характер и ни при каких условиях не является публичной
+				офертой. <br>
+				Для получения информации о стоимости товаров, пожалуйста, обращайтесь в отдел продаж компании Гермес.
+			</p>
+
+			<div class="footer-page__socials">
+				<img class="footer-page__img" src="img/footer/whatsapp.svg" alt="WhatsApp">
+				<img class="footer-page__img" src="img/footer/telegram.svg" alt="Telegram">
+			</div>
+
+		</div>
+	</footer>
+	<!-- /.footer-page -->
+
+	<!-- popup-enter -->
+	<div class="popup popup-enter">
+		<div class="popup__wrapper">
+			<div class="popup__inner">
+				<div class="popup__content popup-enter__content">
+					<button class="btn-close popup__btn-close popup-close"></button>
+					<h2 class="popup__title">Вход в личный кабинет</h2>
+
+					<form class="form enter-form">
+						<div class="enter-form__option">
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="tel">Телефон</label>
+								<input class="enter-form__input" id="tel" type="tel" name="Телефон" placeholder="" autocomplete="on" required>
+							</div>
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="password">Пароль для аккаунта</label>
+								<input class="enter-form__input" id="password" type="current-password" name="Пароль для аккаунта" placeholder=""
+									required>
+							</div>
+						</div>
+
+						<div class="enter-form__option">
+							<button class="btn enter-form__btn" type="button"
+								onclick="document.location='personal-home.html'">Войти</button>
+							<button class="btn enter-form__btn enter-form__btn-other popup-close" type="submit"
+								data-popup="popup-create">Создать аккаунт</button>
+						</div>
+					</form>
+
+					<a class="popup-enter__subtext--accent" href="#">Не помню пароль</a>
+					<p class="popup-enter__subtext">Отправляя форму Вы принимаете<br>политику обработки персональных данных</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.popup-enter -->
+
+	<!-- popup-create -->
+	<div class="popup popup-create">
+		<div class="popup__wrapper">
+			<div class="popup__inner">
+				<div class="popup__content popup-enter__content">
+					<button class="btn-close popup__btn-close popup-close"></button>
+					<h2 class="popup__title">Создание кабинета</h2>
+
+					<form class="form enter-form">
+						<div class="enter-form__option">
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="name">Имя</label>
+								<input class="enter-form__input" id="name" type="text" name="Имя" placeholder="Иван" autocomplete="on" required>
+							</div>
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="surname">Фамилия</label>
+								<input class="enter-form__input" id="surname" type="text" name="Фамилия" placeholder="Иванов" required>
+							</div>
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="tel">Телефон</label>
+								<input class="enter-form__input" id="tel" type="tel" autocomplete="on" name="Телефон" placeholder="+7 (995) 888 77 66"
+									required>
+							</div>
+							<!-- <div class="enter-form__box">
+							<label class="enter-form__input-title" for="email">E-mail</label>
+							<input class="enter-form__input" id="email" type="email" name="E-mail" placeholder="mail@email.ru"
+								required>
+						</div>
+						<div class="enter-form__box">
+							<label class="enter-form__input-title" for="login">Логин</label>
+							<input class="enter-form__input" id="login" type="text" name="Логин" placeholder="" required>
+						</div> -->
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="password">Пароль для аккаунта</label>
+								<input class="enter-form__input" id="password" type="text" name="Пароль для аккаунта" placeholder=""
+									required>
+								<p class="popup-create__subtext">Для вашей безопасности используйте сложные пароли</p>
+							</div>
+						</div>
+
+						<div class="enter-form__option">
+							<button class="btn enter-form__btn" type="submit">Создать аккаунт</button>
+							<button class="btn enter-form__btn enter-form__btn-other popup-close" type="submit"
+								data-popup="popup-enter">Отмена</button>
+						</div>
+					</form>
+
+					<p class="popup-enter__subtext">Отправляя форму Вы принимаете<br>политику обработки персональных данных</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.popup-create -->
+
+	<!-- popup-menu -->
+	<div class="popup popup-menu">
+		<div class="popup__wrapper">
+			<div class="popup__inner">
+				<div class="popup__content popup__content--fluid popup__content--centered">
+					<button class="btn-close popup__btn-close popup-close"></button>
+					<nav class="mobile-menu popup__mobile-menu">
+						<ul class="mobile-menu__ul">
+							<li class="mobile-menu__li">
+								<a class="mobile-menu__link popup-close" href="index.html">Главная</a>
+							</li>
+							<li class="mobile-menu__li">
+								<a class="mobile-menu__link popup-close" href="catalog.html">Каталог</a>
+							</li>
+							<li class="mobile-menu__li">
+								<a class="mobile-menu__link popup-close" href="contacts.html">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="phone popup__phone">
+						<a class="phone__item phone__item--accent" href="tel:+78432039343">+7 (843) 203-93-43</a>
+					</div>
+					<ul class="socials">
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<button class="btn-icon" type="button" data-popup="popup-enter">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/account.svg" alt="Личный кабинет">
+								</button>
+							</div>
+						</li>
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<a href="#" class="btn-icon">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/fav.svg" alt="Избранное">
+								</a>
+							</div>
+						</li>
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<a href="cart.html" class="btn-icon">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/cart.svg" alt="Корзина">
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.popup-menu -->
+
+	<script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+		crossorigin="anonymous">
+		</script>
+</body>
+
+</html>

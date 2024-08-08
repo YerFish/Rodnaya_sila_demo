@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+
+	<meta name="description" content="Родная сила — жизнь, дарованная природой">
+	<meta name="keywords" content="сила">
+
+	<meta property="og:title" content="Родная сила — жизнь, дарованная природой" />
+	<meta property="og:description" content="Родная сила — жизнь, дарованная природой" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#5c8429">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>Родная сила — жизнь, дарованная природой</title>
+
+	<script src="js/slick.min.js" defer></script>
+	<script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+	<!-- header-page -->
+	<header class="header-page">
+		<div class="container header-page__container">
+			<div class="header-page__start">
+				<div class="header-page__hamburger" data-popup="popup-menu">
+					<button class="btn-menu" type="button">
+						<span class="btn-menu__box">
+							<span class="btn-menu__inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="logo" onclick="document.location='index.html'">
+					<img class="logo__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/common/logo.svg" alt="Логотип" width="70" height="40">
+				</div>
+			</div>
+			<div class="header-page__end">
+				<nav class="header-page__nav">
+					<ul class="header-page__ul">
+						<li class="header-page__li">
+							<a class="header-page__link" href="index.html">
+								<span class="header-page__text">Главная</span>
+							</a>
+						</li>
+						<li class="header-page__li">
+							<a class="header-page__link" href="catalog.html">
+								<span class="header-page__text">Каталог</span>
+							</a>
+						</li>
+						<li class="header-page__li">
+							<a class="header-page__link" href="contacts.html">
+								<span class="header-page__text">Контакты</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="header-page__nav">
+					<ul class="header-page__ul">
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<button class="btn-icon" type="button" data-popup="popup-enter">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/account.svg" alt="Личный кабинет">
+								</button>
+							</div>
+						</li>
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<a href="#" class="btn-icon">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/fav.svg" alt="Избранное">
+								</a>
+							</div>
+						</li>
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<a href="cart.html" class="btn-icon">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/cart.svg" alt="Корзина">
+								</a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+				<div class="phone">
+					<a href="tel:+78432039343" class="phone__item header-page__phone">Связаться</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- /.header-page -->
+
+	<!-- section-order -->
+	<section class="section section-order">
+		<div class="container section-cart__container">
+			<a href="cart.html" class="section-cart__link">
+				<!-- <a href="javascript:history.back()" class="section-cart__link"> -->
+				<div class="section-cart__back">
+					<svg class="section-cart__back-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path d="M15 18L9 12L15 6" />
+					</svg>
+					<span class="section-cart__text">Вернуться в корзину</span>
+				</div>
+			</a>
+			<div class="section-cart__content">
+
+				<div class="section-cart__items">
+					<form action="" class="form-order">
+						<div class="form-order__content">
+							<input type="text" class="form-order__input" name="Имя" placeholder="Имя" required>
+							<input type="text" class="form-order__input" name="Фамилия" placeholder="Фамилия" required>
+							<input type="tel" class="form-order__input" name="Телефон" placeholder="Телефон" required>
+						</div>
+						<span class="form-order__subtitle">Доставка</span>
+						<div class="form-order__row">
+							<div class="form-order__info">
+								<input type="radio" id="pickup"
+									onclick="if(this.checked){ document.getElementById('pickup-field').classList.remove('invisible'), document.getElementById('yandex-field').classList.add('invisible')}"
+									class="form-order__switch" value="Самовывоз" name="Доставка">
+								<label for="pickup" class="form-order__text">Самовывоз из <br>нашего офиса</label>
+								<button class="tooltip" type="button" aria-labelledby="tooltip-label-date">
+									<img src="img/common/prompt.svg" alt="Подсказка" class="form-order__details">
+									<span class="tooltip-office tooltip-text" role="tooltip" id="tooltip-label-date">Офисы в Москве, Уфе,
+										Нижневартовске
+									</span>
+								</button>
+							</div>
+							<div class="form-order__info">
+								<input type="radio" id="courier"
+									onclick="if(this.checked){ document.getElementById('pickup-field').classList.add('invisible'), document.getElementById('yandex-field').classList.add('invisible')}"
+									class="form-order__switch" value="Курьер" name="Доставка"><label for="courier"
+									class="form-order__text">Курьер на дом</label>
+							</div>
+							<div class="form-order__info">
+								<input type="radio" id="yandex"
+									onclick="if(this.checked){ document.getElementById('yandex-field').classList.remove('invisible'), document.getElementById('pickup-field').classList.add('invisible')}"
+									class="form-order__switch" value="Пункт" name="Доставка"><label for="yandex"
+									class="form-order__text">Яндекс, пункт выдачи</label>
+							</div>
+						</div>
+						<input type="text" id="pickup-field" class="form-order__input invisible" name="Город самовывоза"
+							placeholder="В каком городе самовывоз?">
+						<input type="text" id="yandex-field" class="form-order__input invisible" name="Адрес пункта выдачи"
+							placeholder="Адрес ближайшего пункта выдачи">
+						<div class="form-order__content">
+							<input type="text" class="form-order__input" name="Город" placeholder="Город" required>
+							<input type="text" class="form-order__input" name="Улица" placeholder="Улица" required>
+							<input type="tel" class="form-order__input" name="Дом" placeholder="Дом" required>
+							<input type="tel" class="form-order__input" name="Подъезд" placeholder="Подъезд">
+							<input type="tel" class="form-order__input" name="Квартира" placeholder="Квартира" required>
+							<input type="tel" class="form-order__input" name="Домофон" placeholder="Домофон" required>
+						</div>
+						<input type="text" class="form-order__input" name="Комментарий" placeholder="Комментарий для курьера">
+						<div class="form-order__row">
+							<input type="radio" id="card" class="form-order__switch" value="Карта" name="Оплата"><label for="card"
+								class="form-order__text">Карта</label>
+							<input type="radio" id="qr" class="form-order__switch" value="QR код" name="Оплата"><label for="qr"
+								class="form-order__text">QR
+								код</label>
+							<div class="form-order__info">
+								<input type="radio" id="bonus" class="form-order__switch" value="Бонусы" name="Оплата"><label
+									for="bonus" class="form-order__text">Оплата бонусами</label>
+								<button class="tooltip" type="button" aria-labelledby="tooltip-label-date">
+									<img src="img/common/prompt.svg" alt="Подсказка" class="form-order__details">
+									<span class="tooltip-text" role="tooltip" id="tooltip-label-date">Бонусами возможно оплатить только до
+										50% при наличии на балансе. 1 бонус = 100 р
+									</span>
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="section-cart__order">
+					<div class="section-cart__order-features">
+						<h3 class="section-cart__text" style="text-transform: uppercase;">
+							ЗАКАЗ
+						</h3>
+						<div class="section-cart__order-items">
+							<div class="section-cart__order-list">
+								<div class="section-cart__order-item">
+									<span class="section-cart__text">Товары</span>
+									<div class="section-cart__price">
+										<span class="section-cart__price-value">4 680</span>
+										<span class="section-cart__currency">руб.</span>
+									</div>
+								</div>
+								<div class="section-cart__order-item">
+									<span class="section-cart__text">Доставка</span>
+									<div class="section-cart__price">
+										<span class="section-cart__price-value">450</span>
+										<span class="section-cart__currency">руб.</span>
+									</div>
+								</div>
+							</div>
+							<div class="section-cart__order-item">
+								<span class="section-cart__text section-cart__text--accent">Оплата бонусами</span>
+								<div class="section-cart__price">
+									<span class="section-cart__price-value">2565</span>
+									<span class="section-cart__currency">руб.</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section-cart__total">
+						<span class="section-cart__text" style="text-transform: uppercase;">Итого</span>
+						<div class="section-cart__price">
+							<span class="section-cart__price-value">4 680</span>
+							<span class="section-cart__currency">руб.</span>
+						</div>
+					</div>
+					<a class="section-cart__to-pay" data-popup="popup-payment">Оплатить</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /.section-order -->
+
+
+	<!-- footer-page -->
+	<footer class="footer-page">
+		<div class="container footer-page__container">
+			<div class="footer-page__info">
+				<ul class="footer-page__list">
+					<li class="footer-page__li">Организация</li>
+					<li class="footer-page__li">
+						<a href="index.html" class="footer-page__link">О нас</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="catalog.html" class="footer-page__link">Каталог</a>
+					</li>
+				</ul>
+				<ul class="footer-page__list">
+					<li class="footer-page__li">Как купить</li>
+					<li class="footer-page__li">
+						<a href="index.html#section-bonus" class="footer-page__link">Доставка</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="index.html#section-bonus" class="footer-page__link">Оплата</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="contacts.html" class="footer-page__link">Контакты</a>
+					</li>
+				</ul>
+				<ul class="footer-page__list">
+					<li class="footer-page__li">Мы на связи</li>
+					<li class="footer-page__li">
+						<a href="tel:+78432039343" class="footer-page__link">8 (843) 203-93-43</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="mailto:info@td-germes.ru" class="footer-page__link"
+							style="text-decoration-line: underline;">info@td-germes.ru</a>
+					</li>
+				</ul>
+				<ul class="footer-page__list">
+					<li class="footer-page__li">Наш адрес</li>
+					<li class="footer-page__li">
+						<a href="contacts.html" class="footer-page__link">Казань</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="contacts.html" class="footer-page__link" style="text-decoration-line: underline;">ул.Сары Садыковой
+							30, 2 этаж</a>
+					</li>
+					<li class="footer-page__li">
+						<a href="contacts.html" class="footer-page__link">Пн - Пт c 8:30 до 17:30
+							<br>Суббота с 9:00 до 14:00</a>
+					</li>
+				</ul>
+			</div>
+			<p class="footer-page__text">© 2012 — 2020, ООО «ТК «Гермес»<br>
+				Сайт www.td-germes.ru носит исключительно информационный характер и ни при каких условиях не является публичной
+				офертой. <br>
+				Для получения информации о стоимости товаров, пожалуйста, обращайтесь в отдел продаж компании Гермес.
+			</p>
+
+			<div class="footer-page__socials">
+				<img class="footer-page__img" src="img/footer/whatsapp.svg" alt="WhatsApp">
+				<img class="footer-page__img" src="img/footer/telegram.svg" alt="Telegram">
+			</div>
+
+		</div>
+	</footer>
+	<!-- /.footer-page -->
+
+	<!-- popup-enter -->
+	<div class="popup popup-enter">
+		<div class="popup__wrapper">
+			<div class="popup__inner">
+				<div class="popup__content popup-enter__content">
+					<button class="btn-close popup__btn-close popup-close"></button>
+					<h2 class="popup__title">Вход в личный кабинет</h2>
+
+					<form class="form enter-form">
+						<div class="enter-form__option">
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="tel">Телефон</label>
+								<input class="enter-form__input" id="tel" type="tel" name="Телефон" placeholder="" autocomplete="on" required>
+							</div>
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="password">Пароль для аккаунта</label>
+								<input class="enter-form__input" id="password" type="current-password" name="Пароль для аккаунта" placeholder=""
+									required>
+							</div>
+						</div>
+
+						<div class="enter-form__option">
+							<button class="btn enter-form__btn" type="button"
+								onclick="document.location='personal-home.html'">Войти</button>
+							<button class="btn enter-form__btn enter-form__btn-other popup-close" type="submit"
+								data-popup="popup-create">Создать аккаунт</button>
+						</div>
+					</form>
+
+					<a class="popup-enter__subtext--accent" href="#">Не помню пароль</a>
+					<p class="popup-enter__subtext">Отправляя форму Вы принимаете<br>политику обработки персональных данных</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.popup-enter -->
+
+	<!-- popup-create -->
+	<div class="popup popup-create">
+		<div class="popup__wrapper">
+			<div class="popup__inner">
+				<div class="popup__content popup-enter__content">
+					<button class="btn-close popup__btn-close popup-close"></button>
+					<h2 class="popup__title">Создание кабинета</h2>
+
+					<form class="form enter-form">
+						<div class="enter-form__option">
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="name">Имя</label>
+								<input class="enter-form__input" id="name" type="text" name="Имя" placeholder="Иван" autocomplete="on" required>
+							</div>
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="surname">Фамилия</label>
+								<input class="enter-form__input" id="surname" type="text" name="Фамилия" placeholder="Иванов" required>
+							</div>
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="tel">Телефон</label>
+								<input class="enter-form__input" id="tel" type="tel" autocomplete="on" name="Телефон" placeholder="+7 (995) 888 77 66"
+									required>
+							</div>
+							<!-- <div class="enter-form__box">
+							<label class="enter-form__input-title" for="email">E-mail</label>
+							<input class="enter-form__input" id="email" type="email" name="E-mail" placeholder="mail@email.ru"
+								required>
+						</div>
+						<div class="enter-form__box">
+							<label class="enter-form__input-title" for="login">Логин</label>
+							<input class="enter-form__input" id="login" type="text" name="Логин" placeholder="" required>
+						</div> -->
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="password">Пароль для аккаунта</label>
+								<input class="enter-form__input" id="password" type="text" name="Пароль для аккаунта" placeholder=""
+									required>
+								<p class="popup-create__subtext">Для вашей безопасности используйте сложные пароли</p>
+							</div>
+						</div>
+
+						<div class="enter-form__option">
+							<button class="btn enter-form__btn" type="submit">Создать аккаунт</button>
+							<button class="btn enter-form__btn enter-form__btn-other popup-close" type="submit"
+								data-popup="popup-enter">Отмена</button>
+						</div>
+					</form>
+
+					<p class="popup-enter__subtext">Отправляя форму Вы принимаете<br>политику обработки персональных данных</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.popup-create -->
+
+	<!-- popup-menu -->
+	<div class="popup popup-menu">
+		<div class="popup__wrapper">
+			<div class="popup__inner">
+				<div class="popup__content popup__content--fluid popup__content--centered">
+					<button class="btn-close popup__btn-close popup-close"></button>
+					<nav class="mobile-menu popup__mobile-menu">
+						<ul class="mobile-menu__ul">
+							<li class="mobile-menu__li">
+								<a class="mobile-menu__link popup-close" href="index.html">Главная</a>
+							</li>
+							<li class="mobile-menu__li">
+								<a class="mobile-menu__link popup-close" href="catalog.html">Каталог</a>
+							</li>
+							<li class="mobile-menu__li">
+								<a class="mobile-menu__link popup-close" href="contacts.html">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="phone popup__phone">
+						<a class="phone__item phone__item--accent" href="tel:+78432039343">+7 (843) 203-93-43</a>
+					</div>
+					<ul class="socials">
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<button class="btn-icon" type="button" data-popup="popup-enter">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/account.svg" alt="Личный кабинет">
+								</button>
+							</div>
+						</li>
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<a href="#" class="btn-icon">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/fav.svg" alt="Избранное">
+								</a>
+							</div>
+						</li>
+						<li class="header-page__li">
+							<div class="header-page__icons">
+								<a href="cart.html" class="btn-icon">
+									<img class="btn-icon__img lazy"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+										data-src="img/common/cart.svg" alt="Корзина">
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.popup-menu -->
+
+	<!-- .popup-payment -->
+
+	<div class="popup popup-payment">
+		<div class="popup__wrapper">
+			<div class="popup__inner">
+				<div class="popup__content popup-enter__content">
+					<button class="btn-close popup__btn-close popup-close"></button>
+
+
+					<form class="form pay-form enter-form">
+						<div class="form__top">
+							<div class="section-cart__total">
+								<span class="section-cart__text">Оплата:</span>
+								<div class="section-cart__price">
+									<span class="section-cart__price-value">4 680</span>
+									<span class="section-cart__currency">руб.</span>
+								</div>
+							</div>
+							<div class="section-cart__notice">
+								<img src="img/common/lock.svg" alt="Предупреждение">
+								<div class="section-cart__subtext">Безопасное соединение</div>
+							</div>
+						</div>
+						<div class="enter-form__option">
+							<div class="enter-form__box">
+								<label class="enter-form__input-title" for="card-number">Номер карты</label>
+								<input class="enter-form__input" id="card-number" type="text" name="Номер карты" placeholder=""
+									required>
+							</div>
+							<div class="pay-form__row">
+								<div class="enter-form__box">
+									<label class="enter-form__input-title" for="duedate">Срок действия</label>
+									<input class="enter-form__input" id="duedate" type="text" name="Срок действия карты"
+										placeholder="мм/гг" required>
+								</div>
+								<div class="enter-form__box">
+									<label class="enter-form__input-title" for="cvc/cvv">CVC/CVV</label>
+									<input class="enter-form__input" id="cvc/cvv" type="text" name="CVC/CVV" placeholder="xxx" required>
+								</div>
+							</div>
+						</div>
+
+						<div class="enter-form__option">
+							<button class="btn enter-form__btn" type="submit">Оплатить</button>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.popup-payment -->
+
+	<!-- popup-error -->
+	<div class="popup popup-error">
+		<div class="popup__wrapper">
+			<div class="popup__inner">
+				<div class="popup__content">
+					<button class="btn-close popup__btn-close popup-close"></button>
+					<h2 class="page-title popup__title">Произошла ошибка</h2>
+					<p class="popup__subtitle">Пожалуйста, сделайте заказ по номеру <a class="popup__link" href="+79999999999">+7
+							(999) 999-99-99</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.popup-error -->
+
+
+	<script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+		crossorigin="anonymous">
+		</script>
+</body>
+
+</html>
